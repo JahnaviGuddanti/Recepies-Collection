@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <style>
+        body {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("log3.jpg");
+    background-size: cover; /* Ensures the background image covers the entire body */
+     /* Prevents the background image from repeating */
+    background-position: right; /* Positions the background image to the right */
+    margin: 0;
+    padding: 0;
+    
+}
+        header {
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            color: #213032;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+           background: #fff;
+           /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+        }
+       
+        label {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+            
+        }
+        input[type="text"],
+        input[type="password"] {
+            height: 20px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            background-color: #213032;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #97a2a3;
+        }
+        .logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #213032;
+    margin-right: 40px;
+}
+
+nav ul  a{
+    display: block;
+    color: #edffef;
+   
+        display: inline;
+        color: rgb(46, 6, 46); /* home,about..colors will change*/
+        text-decoration: none;
+       border: 10px;
+        font-size: 18px;
+        display: inline;
+       margin-right: 20px
+}
+nav ul li:hover a{
+    background-color: #97a2a3;
+    color: #213032;
+    cursor: pointer;
+}
+a{
+    padding-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+header{
+    width:100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+background: #acb4b5
+}
+.log{
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+<header>
+    <div class ="logo">Flavor Fiesta</div>
+  <center><nav>
+    <ul>
+       <a href="home.html">HOME</a>
+       <a href="about.html">ABOUT</a>
+       <a href="contact.html">CONTACT</a>
+       <a href="register.html">REGISTER</a>
+       <a href="login.html">LOGIN</a>
+    </ul>
+   </nav></center>
+   </div>
+    </header>
+<body>
+    <form action="loginsuccess.html">
+        <div class="log">
+        <font size=10>Login</font>
+        </div>
+    
+    
+    <div class="container">
+        <h2>Welcome Back</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <button type="submit">Login</button>
+        </div>
+        </form>
+</body>
+</html>

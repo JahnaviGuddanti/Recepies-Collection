@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+           .logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #213032;
+    margin-right: 40px;
+}
+
+nav ul  a{
+    display: block;
+    color: #edffef;
+   
+        display: inline;
+        color: rgb(46, 6, 46); /* home,about..colors will change*/
+        text-decoration: none;
+       border: 10px;
+        font-size: 18px;
+        display: inline;
+       margin-right: 20px
+}
+nav ul li:hover a{
+    background-color: #97a2a3;
+    color: #213032;
+    cursor: pointer;
+}
+a{
+    padding-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+header{
+    width:100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+background: #acb4b5
+}
+img {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 500px; /* Adjust width as needed */
+    height: 300px; /* Maintain aspect ratio */
+    margin-left: 20px; /* Optional: Add margin to separate from text */
+}
+.recipe{
+    padding: 30px;
+}
+@media screen and (max-width: 768px) {
+            .logo {
+                font-size: 24px;
+                margin-right: 20px;
+            }
+
+            nav ul a {
+                font-size: 16px;
+                margin-right: 10px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                height: auto;
+            }
+
+            img {
+                position: static;
+                width: 100%;
+                height: auto;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+
+            .recipe {
+                padding: 20px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+
+            nav ul a {
+                font-size: 14px;
+                margin-right: 5px;
+            }
+
+            header {
+                align-items: center;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .recipe {
+                padding: 10px;
+            }
+        }
+        </style>
+    </head>
+</head>
+<header>
+    <div class ="logo">Flavor Fiesta</div>
+  <center><nav>
+    <ul>
+       <a href="home.html">HOME</a>
+       <a href="about.html">ABOUT</a>
+       <a href="contact.html">CONTACT</a>
+       <a href="register.html">REGISTER</a>
+       <a href="login.html">LOGIN</a>
+    </ul>
+   </nav></center>
+   </div>
+    </header>
+    <main>
+        <section class="recipe">
+            <font size=8><p style="color: rgb(39, 56, 81)">Chicken Fry Recipe</p></font>
+            
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 kg chicken (cut into pieces)</li>
+                <li>1 cup plain yogurt</li>
+                <li>2 tablespoons ginger-garlic paste</li>
+                <li>2 teaspoons red chili powder</li>
+                <li>1 teaspoon turmeric powder</li>
+                <li>1 teaspoon garam masala powder</li>
+                <li>1 teaspoon coriander powder</li>
+                <li>1 teaspoon cumin powder</li>
+                <li>1 tablespoon lemon juice</li>
+                <li>Salt to taste</li>
+                <li>Oil for frying</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+            <div class="img">
+            <img src="chick.webp" width="500px" height="200px"><br>
+            </div>
+            <h2>Process</h2>
+            <ol>
+                <li>
+                    <strong>Marinate the Chicken:</strong>
+                    <p>In a large bowl, combine yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala powder, coriander powder, cumin powder, lemon juice, and salt. Mix well to form a smooth marinade. Add the chicken pieces to the marinade, ensuring each piece is well-coated. Cover the bowl and refrigerate for at least 2 hours, preferably overnight for best results.</p>
+                </li>
+                <li>
+                    <strong>Prepare for Frying:</strong>
+                    <p>Remove the marinated chicken from the refrigerator and let it come to room temperature (about 30 minutes).</p>
+                </li>
+                <li>
+                    <strong>Heat the Oil:</strong>
+                    <p>In a deep frying pan or skillet, heat enough oil over medium-high heat for deep frying.</p>
+                </li>
+                <li>
+                    <strong>Fry the Chicken:</strong>
+                    <p>Once the oil is hot, carefully add a few pieces of marinated chicken to the pan without overcrowding. Fry the chicken pieces until they are golden brown and crispy on the outside and cooked through on the inside. This should take about 8-10 minutes per batch. Use a slotted spoon to remove the chicken pieces from the oil and place them on a paper towel-lined plate to drain excess oil.</p>
+                </li>
+                <li>
+                    <strong>Garnish and Serve:</strong>
+                    <p>Garnish the fried chicken with fresh coriander leaves. Serve hot with your favorite dipping sauce or chutney, along with lemon wedges.</p>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+</html>
